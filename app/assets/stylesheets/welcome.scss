@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6{
 
 .cover{
 	position: relative;
-	background: url(http://iamevan.me/wp-content/uploads/2014/04/DeathtoStock_Desk7.jpg);
+	background: url(/assets/cover.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -61,8 +61,13 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .info-2{
-	background-color: #2196F3;
-	color: white;
+	position: relative;
+	background: url(/assets/cover-descripsion.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	align-items: center;
+	color: black;
 	padding: 40px;
 }
 
@@ -225,7 +230,7 @@ footer ul li a:hover{
 }
 
 .cajas a {
-	color: white;
+	color: black;
 	margin-left: 0.4em;
 }
 
@@ -236,8 +241,6 @@ footer ul li a:hover{
 .imagen img {
 	width: 280px;
 	padding: 10px;
-	background-color: white;
-	border-radius: 4px;
 	text-align: center;
 
 }
@@ -294,3 +297,50 @@ footer ul li a:hover{
 
 }
 
+.login{
+	padding: 10px;
+	position: absolute;
+	top: 40px;
+	right:50px;
+	list-style: none;
+	overflow: hidden;
+	text-align: center;
+
+}
+
+.login li {
+	float: right;
+}
+
+.login li a{
+	font-family: 'Kaushan Script', cursive;
+	display: block;
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.form-control{
+	border:none;
+	border-bottom: 1px solid;
+	outline:none;
+	width: 100%;
+	display: block;
+	padding: 10px 0px;
+	font-size: 1.2em;
+}
+
+.color h2{
+	color: #fff;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 50px;
+}
+
+
+.color .color2{
+	color: #fff;
+}
+
+.color a{
+	color: #fff;
+}
